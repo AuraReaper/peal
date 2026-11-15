@@ -2,7 +2,7 @@
 
 **Ring once. Reach everywhere.**
 
-[![Go](https://img.shields.io/badge/go-1.22%2B-00ADD8)](https://go.dev)
+[![Go](https://img.shields.io/badge/go-1.27%2B-00ADD8)](https://go.dev)
 ![status](https://img.shields.io/badge/status-in%20development-orange)
 
 Peal is a small distributed notification service written in Go. A producer submits a notification once; Peal stores it durably, fans it out to every requested channel, and keeps retrying each delivery until it succeeds or is declared dead. It uses only the Go standard library.
